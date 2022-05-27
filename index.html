@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apod Nasa</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Descubra qual captura a Nasa realizou em uma data determinada :</h1>
+        <div id="divLogo">
+            <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" id="logo">
+        </div>
+    </header>
+  <main>
+        <form id="formulario">
+            <label for="user" id="data" >Escolha uma data:</label>
+            <input type="date" id="user">
+            <input type="button" id="botao" value="Pesquisar">
+        </form>
+        <h2 id="titulo"></h2>
+        <div id="img-desc">
+            <iframe id="video" width="560" height="315"
+             src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <img src="" id="imagem">
+            <p id="desc"></p>
+        </div>
+  </main>
+
+</body>
+</html>

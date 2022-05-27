@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Tiro+Devanagari+Hindi & display=trocar'); 
+
+body{
+    background-image: url(./imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+#divLogo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cabecalho h1{
+    color: #FFFAFA;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    padding-left: 19%;
+}
+
+#logo{
+    max-width: 300px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo{
+    color: #FAEBD7;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:  	#2F4F4F;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+#img-desc{
+    display: none;
+    justify-content: center;
+    background-color: #FAEBD7;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 50px;
+    opacity: 90%;
+}
+
+#video{
+    width: 50%;
+    padding: 2%;
+    display: none;
+}
+
+#imagem{
+    width: 50%;
+    padding-right: 2%;
+}
+
+#desc{
+    width: 50%;
+}
+
+#data{
+    color:aliceblue;
+    font-size: larger;
+}
